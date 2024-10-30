@@ -1,0 +1,85 @@
+== Changelog ==
+
+= 1.8.2 =
+* Bug fixing voor lokale wordpress sites.
+
+= 1.8.1 =
+* CSS optie toegevoegd voor de left-padding van de flat widget.
+
+= 1.8 =
+* CSS voor de platte widget toegevoegd, gebruiker bepaalt de letter grootte en letter kleur
+* Platte widget versie toegevoegd
+* Aangepast hoe de CSS word ingeladen - klantenvertellen en patientenvertellen hebben hun eigen CSS bestand
+* CSS met PHP variabelen word nu toegepast via wp_add_inline_style
+* CSS bestand is terugveranderd van een PHP bestand naar een CSS bestand
+
+= 1.5 =
+* CSS bestand aangepast voor patientenvertellen gegevens
+* Patientenvertellen reviews verwijderd, gemiddelden kunnen nog getoond worden
+* Patientenvertellen formulier toegevoegd
+* Patientenvertellen shortcode heeft dezelfde soort aanpassingen gekregen
+* Opbouw van de shortcode aangepast, alle attributen zijn nu dynamisch en niet afhankelijk van andere.
+* Limiet staat niet meer in de shortcode als deze leeg is.
+* Aangepast hoe we ons limiet controleren.
+* jQuery is nu WordPress vriendelijk.
+* Menu item voor Patientenvertellen toegevoegd.
+
+= 1.0 =
+* CSS gescheiden van de plugin code zover logisch.
+* Beschrijving veld toegevoegd.
+
+= 0.5 =
+* SideShow Media logo toegevoegd aan de opties pagina.
+* Sleutel veld is alleen zichtbaar indien ingevuld.
+* Reviews zonder filter respecteren het limiet.
+* Reviews respecteren ingevoerde limieten en filters.
+* XML-veld verduidelijkt door een visuele string om het veld heen te zetten.
+* Opties toegevoegd voor de tekst posities en letter afstand van de widget.
+
+= 0.4 =
+* Filter kolom en sleutel veld zijn dropdowns gevuld op basis van de ingevoerde XML.
+* Sleutel veld toegevoegd zodat een bepaalde kolom boven de ervaring getoond kan worden.
+* Limiet veld gelimiteerd tot 0 om negatieve waardes te voorkomen.
+* Filter wordt verwijderd van de shortcode als beide velden leeg zijn.
+* Gemiddelde cijfers van reviews supporten nu alle websites.
+* Alle tekst en achtergrond kleuren zijn verstelbaar via het admin menu.
+
+= 0.3 =
+* Shortcode is nu dynamisch in plaats van statisch.
+* Afbeeldingen staan lokaal in de plugin.
+
+= 0.2 =
+* Shortcode generator toegevoegd voor gebruikersvriendelijkheid.
+* Admin menu toegevoegd.
+
+= 0.1 =
+* Shortcode resultaat is hard-coded.
+* Widget versie werkt voor alle websites.
+
+== Upgrade Notice ==
+
+= 1.8.2 =
+Fout meldingen bij lokale wordpress installaties opgelost.
+
+= 1.8.1 =
+Extra CSS setting voor de flat widget, maakt de platte versie meer gebruikersvriendelijk.
+
+= 1.8 =
+Platte versie van de widget toegevoegd, handig voor het tonen van het algemene gemiddelde in de top menu van een website.
+
+= 1.5 =
+Support voor patientenvertellen.nl toegevoegd, dit heeft zijn eigen shortcode, je hoeft dus niets te veranderen aan je huidige shortcodes.
+
+= 1.0 =
+Extra veld toegevoegd voor een meta tag voor Google.
+Code opgeschoond.
+CSS zoveel mogelijk gescheiden van de plugin.
+
+= 0.5 =
+Bug met filters en limieten opgelost, shortcode breekt niet meer als u een filter met limiet heeft of een limiet zonder filter.
+
+= 0.3 =
+Shortcodes zijn niet meer hard-coded maar kunnen voor alle websites gebruikt worden.
+
+= 0.1 =
+Initiele versie, werkt alleen voor VocalCenter.
